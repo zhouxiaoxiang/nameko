@@ -1,0 +1,10 @@
+[run]
+concurrency = eventlet
+branch = ${BRANCH}
+source =
+    nameko
+    test
+
+[report]
+show_missing = true
+fail_under = 100
